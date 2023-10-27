@@ -8,6 +8,7 @@ import DataTable from '@/components/DataTable.vue';
         <NavigationMenu />
 
         <!-- component -->
+        
         <DataTable/>
 </div></template>
 

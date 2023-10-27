@@ -1,11 +1,5 @@
 <script setup>
 import NavigationMenu from '@/components/NavigationMenu.vue';
-import IconMashable from '../components/icons/IconMashable.vue';
-import IconMailChimp from '../components/icons/IconMailchimp.vue';
-import IconSpotify from '../components/icons/IconSpotify.vue';
-import IconMicrosoft from '../components/icons/IconMicrosoft.vue';
-import IconGoogle from '../components/icons/IconGoogle.vue';
-import IconAirbnb from '../components/icons/IconAirbnb.vue';
 import IconPayment from '../components/icons/IconPayment.vue';
 </script>
 
@@ -23,7 +17,7 @@ import IconPayment from '../components/icons/IconPayment.vue';
                 </div>
                 <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-[680px]">
                     <div class="bg-white py-12 shadow sm:rounded-lg sm:px-12">
-                        <form class="space-y-6" action="#" method="POST">
+                        <form class="space-y-6" action="/facture-table" method="POST">
                             <div>
                                 <label for="ville" class="block text-sm font-medium leading-6 text-gray-900"></label>
                                 <div>
@@ -60,23 +54,23 @@ import IconPayment from '../components/icons/IconPayment.vue';
                     <div
                         class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                         <a href="#" class="flex justify-center items-center">
-                            <IconAirbnb />
+                            <img src="https://download.logo.wine/logo/Orange_Money/Orange_Money-Logo.wine.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <IconGoogle />
+                            <img src="https://zambianobserver.com/wp-content/uploads/2022/08/Airtel.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <IconMicrosoft />
+                            <img src="@/assets/images/mpesa.png" alt="">
                         </a>
 
                         <a href="#" class="flex justify-center items-center">
-                            <IconSpotify />
+                            <img src="https://congowebservices.com/osipay/assets/uploads/illicocash.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <IconMailChimp />
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Equity_Group_Logo.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <IconMashable />
+                            <img src="https://tmb.cd/wp-content/uploads/2021/12/logo-carre-big.png" alt="">
                         </a>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 <script setup>
 import NavigationMenu from '@/components/NavigationMenu.vue';
 import IconPayment from '../components/icons/IconPayment.vue';
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -39,7 +40,7 @@ import IconPayment from '../components/icons/IconPayment.vue';
                                 </div>
                               </div>
                               <div>
-                                <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-800 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Vérifier</button>
+                                <RouterLink to="/facture-table" type="submit" class="flex w-full justify-center rounded-md bg-indigo-800 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Vérifier</RouterLink>
                               </div>
                         </form>
                     </div>
@@ -52,7 +53,7 @@ import IconPayment from '../components/icons/IconPayment.vue';
                         class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-indigo-950 md:text-4xl">
                         Nos Partenaires</h2>
                     <div
-                        class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                        class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-7 dark:text-gray-400">
                         <a href="#" class="flex justify-center items-center">
                             <img src="https://download.logo.wine/logo/Orange_Money/Orange_Money-Logo.wine.png" alt="">
                         </a>
@@ -62,16 +63,19 @@ import IconPayment from '../components/icons/IconPayment.vue';
                         <a href="#" class="flex justify-center items-center">
                             <img src="@/assets/images/mpesa.png" alt="">
                         </a>
-
                         <a href="#" class="flex justify-center items-center">
-                            <img src="https://congowebservices.com/osipay/assets/uploads/illicocash.png" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Logo_multipay_ok_modif_08_mars_%281%29.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Equity_Group_Logo.png" alt="">
+                            <img src="@/assets/images/afrimoney.png" alt="">
                         </a>
                         <a href="#" class="flex justify-center items-center">
-                            <img src="https://tmb.cd/wp-content/uploads/2021/12/logo-carre-big.png" alt="">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Visa_Logo.png/640px-Visa_Logo.png" alt="">
                         </a>
+                        <a href="#" class="flex justify-center items-center">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png" alt="">
+                        </a>
+                        
                     </div>
                 </div>
             </section>
